@@ -1,0 +1,12 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Singloo/leetcode.git",
+  "author": "Singloo <singloo.oo.yang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "rxjs": "^6.3.3"
+  }
+}
