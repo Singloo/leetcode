@@ -5,8 +5,15 @@
   "repository": "https://github.com/Singloo/leetcode.git",
   "author": "Singloo <singloo.oo.yang@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon --max-old-space-size=4096 answers/11.20-trapping-rain-water/index.js --exec babel-node"
+  },
   "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "lodash": "^4.17.11",
+    "nodemon": "^1.18.7",
     "rxjs": "^6.3.3"
   }
 }

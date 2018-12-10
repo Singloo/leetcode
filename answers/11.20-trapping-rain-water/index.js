@@ -16,8 +16,7 @@ var trap = function() {
     const m = height.map(item => (item > i ? 1 : 0));
     matrixs.push(m);
   }
-  matrixs = matrixs.reverse();
-  matrixs.forEach(matrix => {
+  matrixs.reverse().forEach(matrix => {
     let _indexOf1 = null;
     matrix.forEach((o, i) => {
       if (o == 1) {
