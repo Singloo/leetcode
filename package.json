@@ -6,7 +6,7 @@
   "author": "Singloo <singloo.oo.yang@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --max-old-space-size=4096 answers/11.20-trapping-rain-water/index.js --exec babel-node"
+    "11.20": "nodemon --max-old-space-size=4096 answers/11.20-trapping-rain-water/index.js --exec babel-node"
   },
   "dependencies": {
     "@babel/core": "^7.2.0",
